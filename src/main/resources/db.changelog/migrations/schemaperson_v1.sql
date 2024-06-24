@@ -1,3 +1,6 @@
+--liquibase formatted sql
+
+--changeset ypyrikov: 1
 create table test.persons
 (
     firstname      varchar(255),

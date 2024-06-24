@@ -2,6 +2,7 @@ package com.example.springbootdatajpapractice.service;
 
 import com.example.springbootdatajpapractice.model.Person;
 import com.example.springbootdatajpapractice.repository.PersonRepository;
+import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
