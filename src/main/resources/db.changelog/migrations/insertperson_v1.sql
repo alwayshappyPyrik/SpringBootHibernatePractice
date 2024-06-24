@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset ypyrikov: 1
+--changeset ypyrikov:1
 insert
 into test.persons (firstname, surname, age, phone_number, city_of_living)
 values ('Yaroslav', 'Pyrikov', 31, '', 'Moscow');
