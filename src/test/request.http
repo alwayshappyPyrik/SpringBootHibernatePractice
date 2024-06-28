@@ -1,0 +1,39 @@
+POST http://localhost:8080/person/save
+Content-Type: application/json
+
+{
+  "personId": {
+    "firstname": "yaroslav",
+    "surname": "pyrikov",
+    "age": 31
+  },
+  "phoneNumber": "",
+  "cityOfLiving": "Moscow"
+}
+
+###
+
+GET http://localhost:8080/search/person?firstname=yaroslav&surname=pyrikov&age=31
+
+###
+
+GET http://localhost:8080/print/all-persons
+
+###
+
+DELETE http://localhost:8080/delete/person?firstname=yaroslav&surname=pyrikov&age=3
+
+###
+
+GET http://localhost:8080/persons/by-city?city=Moscow
+
+###
+
+GET http://localhost:8080/persons/by-age?age=36
+
+###
+
+GET http://localhost:8080/persons/person-by-firstname-surname?firstname=yaroslav&surname=pyrikov
+
+###
+
